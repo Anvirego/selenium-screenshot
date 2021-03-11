@@ -17,9 +17,10 @@ import com.github.anvirego.interfaces.TestEvidenceInterface;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+
 /**
  * @author Ing. Angelica Viridiana Rebolloza Gonzalez.
- * @version 1.1 02/2021.
+ * @version 2.0 03/2021.
  * Screenshot: Takes screenshot and creates the final Word Document Evidence.
  */
 public final class Screenshot extends ScreenshotLogic {

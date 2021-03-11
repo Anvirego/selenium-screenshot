@@ -6,6 +6,11 @@ import org.openqa.selenium.WebDriver;
 
 import com.github.anvirego.interfaces.ScreenshotInterface;
 
+/**
+ * @author Ing. Angelica Viridiana Rebolloza Gonzalez.
+ * @version 2.0 03/2021.
+ * ScreenshotLogic: Library main logic. 
+ */
 public class ScreenshotLogic implements ScreenshotInterface {
 	private static File word;
 	

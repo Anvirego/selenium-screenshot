@@ -1,0 +1,100 @@
+/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/bin/javadoc
+@options
+@packages
+-classpath
+'/Users/angelicaviridiana/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/angelicaviridiana/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/angelicaviridiana/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/angelicaviridiana/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/angelicaviridiana/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/angelicaviridiana/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/angelicaviridiana/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/angelicaviridiana/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/angelicaviridiana/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/angelicaviridiana/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/angelicaviridiana/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar:/Users/angelicaviridiana/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar:/Users/angelicaviridiana/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/angelicaviridiana/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/angelicaviridiana/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar:/Users/angelicaviridiana/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/angelicaviridiana/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/angelicaviridiana/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/angelicaviridiana/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/angelicaviridiana/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/angelicaviridiana/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/angelicaviridiana/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar:/Users/angelicaviridiana/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar:/Users/angelicaviridiana/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar:/Users/angelicaviridiana/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar:/Users/angelicaviridiana/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar:/Users/angelicaviridiana/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar:/Users/angelicaviridiana/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar:/Users/angelicaviridiana/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/angelicaviridiana/.m2/repository/com/github/anvirego/test-evidence-word/3.0/test-evidence-word-3.0.jar:/Users/angelicaviridiana/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar:/Users/angelicaviridiana/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar:/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/Users/angelicaviridiana/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/angelicaviridiana/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar:/Users/angelicaviridiana/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Selenium Screenshot 2.0 API'
+-use
+-version
+-windowtitle
+'Selenium Screenshot 2.0 API'
+com.github.anvirego
+com.github.anvirego
+com.github.anvirego
+com.github.anvirego.interfaces
+/Users/angelicaviridiana/.m2/repository/io/appium/java-client/7.3.0/java-client-7.3.0.jar = 1609795614966
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar = 1609795614456
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar = 1609795614518
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar = 1609795614546
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar = 1609795614637
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar = 1609795614616
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar = 1609795614671
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar = 1609795614689
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar = 1609795614725
+/Users/angelicaviridiana/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar = 1609795614949
+/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar = 1609795614820
+/Users/angelicaviridiana/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar = 1612288488970
+/Users/angelicaviridiana/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar = 1612288486649
+/Users/angelicaviridiana/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar = 1612288486649
+/Users/angelicaviridiana/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar = 1612288486604
+/Users/angelicaviridiana/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar = 1612288486539
+/Users/angelicaviridiana/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar = 1612288487150
+/Users/angelicaviridiana/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar = 1609795614863
+/Users/angelicaviridiana/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar = 1609795614898
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar = 1609795614788
+/Users/angelicaviridiana/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar = 1609795614483
+/Users/angelicaviridiana/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar = 1609795614963
+/Users/angelicaviridiana/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar = 1609795615012
+/Users/angelicaviridiana/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar = 1609795615040
+/Users/angelicaviridiana/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1609795615071
+/Users/angelicaviridiana/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar = 1609795615112
+/Users/angelicaviridiana/.m2/repository/cglib/cglib/3.2.12/cglib-3.2.12.jar = 1609795615157
+/Users/angelicaviridiana/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar = 1609795615187
+/Users/angelicaviridiana/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar = 1609795615197
+/Users/angelicaviridiana/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar = 1609795615230
+/Users/angelicaviridiana/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar = 1609795615265
+/Users/angelicaviridiana/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar = 1609795615310
+/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar = 1609795615320
+/Users/angelicaviridiana/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar = 1613759007920
+/Users/angelicaviridiana/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar = 1609795615357
+/Users/angelicaviridiana/.m2/repository/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar = 1609795615380
+/Users/angelicaviridiana/.m2/repository/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar = 1609795615741
+/Users/angelicaviridiana/.m2/repository/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE.jar = 1609795615750
+/Users/angelicaviridiana/.m2/repository/org/springframework/spring-jcl/5.1.8.RELEASE/spring-jcl-5.1.8.RELEASE.jar = 1609795615751
+/Users/angelicaviridiana/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar = 1609795616054
+/Users/angelicaviridiana/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar = 1609795616797
+/Users/angelicaviridiana/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar = 1615316030590
+/Users/angelicaviridiana/.m2/repository/com/github/anvirego/test-evidence-word/3.0/test-evidence-word-3.0.jar = 1615388509146
+/Users/angelicaviridiana/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar = 1609795616693
+/Users/angelicaviridiana/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar = 1609795618610
+/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar = 1609795616794
+/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar = 1609795619742
+/Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar = 1609795619925
+/Users/angelicaviridiana/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar = 1609795619974
+/Users/angelicaviridiana/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar = 1609795623324
+/Users/angelicaviridiana/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar = 1609795622880
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/src/main/java = 1615309295970
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/constant-values.html = 1615431038196
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/tag-search-index.js = 1615431038230
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/overview-tree.html = 1615431038212
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/module-search-index.js = 1615431038229
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/index.html = 1615431038217
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/package-search-index.js = 1615431038229
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/jquery-ui.overrides.css = 1615431038251
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/index-all.html = 1615431038231
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/allpackages-index.html = 1615431038237
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/deprecated-list.html = 1615431038215
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/member-search-index.js = 1615431038230
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/script.js = 1615431038243
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/stylesheet.css = 1615431038243
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/overview-summary.html = 1615431038239
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/help-doc.html = 1615431038241
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/element-list = 1615431038185
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/allclasses-index.html = 1615431038235
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/type-search-index.js = 1615431038229
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/search.js = 1615431038244

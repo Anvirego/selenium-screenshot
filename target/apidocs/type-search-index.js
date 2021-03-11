@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"com.github.anvirego","l":"Screenshot"},{"p":"com.github.anvirego","l":"ScreenshotInstance"},{"p":"com.github.anvirego.interfaces","l":"ScreenshotInterface"},{"p":"com.github.anvirego","l":"ScreenshotLogic"}];updateSearchResults();

@@ -18,11 +18,11 @@
 -docencoding
 'UTF-8'
 -doctitle
-'Selenium Screenshot 2.0 API'
+'Selenium Screenshot 2.1 API'
 -use
 -version
 -windowtitle
-'Selenium Screenshot 2.0 API'
+'Selenium Screenshot 2.1 API'
 com.github.anvirego
 com.github.anvirego
 com.github.anvirego
@@ -69,7 +69,7 @@ com.github.anvirego.interfaces
 /Users/angelicaviridiana/.m2/repository/org/springframework/spring-expression/5.1.8.RELEASE/spring-expression-5.1.8.RELEASE.jar = 1609795616054
 /Users/angelicaviridiana/.m2/repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar = 1609795616797
 /Users/angelicaviridiana/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar = 1615316030590
-/Users/angelicaviridiana/.m2/repository/com/github/anvirego/test-evidence-word/3.0/test-evidence-word-3.0.jar = 1615388509146
+/Users/angelicaviridiana/.m2/repository/com/github/anvirego/test-evidence-word/3.0/test-evidence-word-3.0.jar = 1615439624003
 /Users/angelicaviridiana/.m2/repository/org/apache/poi/poi-ooxml/4.1.1/poi-ooxml-4.1.1.jar = 1609795616693
 /Users/angelicaviridiana/.m2/repository/org/apache/poi/poi/4.1.1/poi-4.1.1.jar = 1609795618610
 /Users/angelicaviridiana/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar = 1609795616794
@@ -79,22 +79,22 @@ com.github.anvirego.interfaces
 /Users/angelicaviridiana/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar = 1609795623324
 /Users/angelicaviridiana/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar = 1609795622880
 /Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/src/main/java = 1615309295970
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/constant-values.html = 1615431038196
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/tag-search-index.js = 1615431038230
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/overview-tree.html = 1615431038212
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/module-search-index.js = 1615431038229
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/index.html = 1615431038217
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/package-search-index.js = 1615431038229
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/jquery-ui.overrides.css = 1615431038251
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/index-all.html = 1615431038231
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/allpackages-index.html = 1615431038237
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/deprecated-list.html = 1615431038215
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/member-search-index.js = 1615431038230
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/script.js = 1615431038243
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/stylesheet.css = 1615431038243
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/overview-summary.html = 1615431038239
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/help-doc.html = 1615431038241
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/element-list = 1615431038185
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/allclasses-index.html = 1615431038235
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/type-search-index.js = 1615431038229
-/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/search.js = 1615431038244
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/constant-values.html = 1615441014964
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/tag-search-index.js = 1615441015002
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/overview-tree.html = 1615441014980
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/module-search-index.js = 1615441015000
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/index.html = 1615441014986
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/package-search-index.js = 1615441015001
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/jquery-ui.overrides.css = 1615441015021
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/index-all.html = 1615441015002
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/allpackages-index.html = 1615441015006
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/deprecated-list.html = 1615441014983
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/member-search-index.js = 1615441015001
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/script.js = 1615441015013
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/stylesheet.css = 1615441015012
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/overview-summary.html = 1615441015008
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/help-doc.html = 1615441015010
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/element-list = 1615441014952
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/allclasses-index.html = 1615441015005
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/type-search-index.js = 1615441015001
+/Users/angelicaviridiana/eclipse-workspace/selenium-screenshot/target/apidocs/search.js = 1615441015014

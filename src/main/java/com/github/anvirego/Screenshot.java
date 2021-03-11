@@ -20,7 +20,7 @@ import io.appium.java_client.MobileElement;
 
 /**
  * @author Ing. Angelica Viridiana Rebolloza Gonzalez.
- * @version 2.0 03/2021.
+ * @version 2.1 03/2021.
  * Screenshot: Takes screenshot and creates the final Word Document Evidence.
  */
 public final class Screenshot extends ScreenshotLogic {
@@ -28,7 +28,6 @@ public final class Screenshot extends ScreenshotLogic {
 	private static String folderName;
 	private int step;
 	private static FileOutputStream outPicture;
-	//private TestEvidence evidence;
 	private TestEvidenceInterface evidence;
 	private static Screenshot screenS;
 	private static File word;
@@ -46,7 +45,6 @@ public final class Screenshot extends ScreenshotLogic {
 		if (language.equalsIgnoreCase("English")) { word = setWordName(testName+"_"+format.format(date).toString()+".doc"); } else {
 			word = language.equalsIgnoreCase("Spanish") ? setWordName(testName+"_Spanish"+"_"+format.format(date).toString()+".doc") : setWordName(testName+"_French"+"_"+format.format(date).toString()+".doc");
 		};
-		//outPicture = new FileOutputStream("./"+TestEvidence.folderName+"/"+word);
 		outPicture = new FileOutputStream("./"+evidence.returnFolderName()+"/"+word);
 		System.out.println(".:.:: Document's name: "+word+" ::.:.");
 	}//Constructor
@@ -65,14 +63,11 @@ public final class Screenshot extends ScreenshotLogic {
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 	public void getScreen(String description) {
 		System.out.println("::::: getScreen Method ("+description+") :::::");
-		//Reporter.log(description);
 		try {
 			File picture;
 			picture = driver.getScreenshotAs(OutputType.FILE);
-			//folder = new File(TestEvidence.folderName+"/"+folderName);
 			folder = new File(evidence.returnFolderName()+"/"+folderName);
 			folder.mkdir();
-			//FileUtils.copyFile(picture, new File (TestEvidence.folderName+"/"+folderName+"/.png"));
 			FileUtils.copyFile(picture, new File (evidence.returnFolderName()+"/"+folderName+"/.png"));
 			step++;
 			evidence.setHeight(275);
@@ -87,10 +82,8 @@ public final class Screenshot extends ScreenshotLogic {
 			File picture;
 			try {
 				picture = ((RemoteWebDriver) driverWeb).getScreenshotAs(OutputType.FILE);
-				//folder = new File(TestEvidence.folderName+"/"+folderName);
 				folder = new File(evidence.returnFolderName()+"/"+folderName);
 				folder.mkdir();
-				//FileUtils.copyFile(picture, new File (TestEvidence.folderName+"/"+folderName+"/.png"));
 				FileUtils.copyFile(picture, new File (evidence.returnFolderName()+"/"+folderName+"/.png"));
 				step++;
 				evidence.setHeight(265);
@@ -108,13 +101,8 @@ public final class Screenshot extends ScreenshotLogic {
 		} catch (Exception e) {System.out.println("▓▓▓▓▓▓▓▓▓▓ closeScreen:  "+e+" ▓▓▓▓▓▓▓▓▓▓");}
 	}//Method
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-	/*
-	private File setWordName(String name) {
-		word = new File(name);
-		return word;
-	}//Method
-	*/
 	public File getWordName() {
 		return word;
 	}//Method
+	
 }//Class

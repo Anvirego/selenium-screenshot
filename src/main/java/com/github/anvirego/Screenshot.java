@@ -50,7 +50,7 @@ public final class Screenshot extends ScreenshotLogic {
 	}//Constructor
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 	public static Screenshot getInstance(AppiumDriver<MobileElement> driver, TestEvidenceInterface evidence, String testName, String language) throws FileNotFoundException {
-		System.out.println("==== Get TestEvidence Instance =====");
+		System.out.println("==== Get Screenshot Instance =====");
 		if (screenS == null) {
 			System.out.println("New Instance");
 			screenS = new Screenshot(driver, evidence, testName, language);
@@ -97,6 +97,7 @@ public final class Screenshot extends ScreenshotLogic {
 		System.out.println("::::: closeScreen :::::");
 		try  {
 			evidence.closeWord(folder.getAbsolutePath(), outPicture);
+			screenS = null;
 		} catch (org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException r) {
 		} catch (Exception e) {System.out.println("▓▓▓▓▓▓▓▓▓▓ closeScreen:  "+e+" ▓▓▓▓▓▓▓▓▓▓");}
 	}//Method

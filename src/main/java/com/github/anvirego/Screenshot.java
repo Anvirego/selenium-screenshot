@@ -20,7 +20,7 @@ import io.appium.java_client.MobileElement;
 
 /**
  * @author Ing. Angelica Viridiana Rebolloza Gonzalez.
- * @version 2.1 03/2021.
+ * @version 2.2 03/2021.
  * Screenshot: Takes screenshot and creates the final Word Document Evidence.
  */
 public final class Screenshot extends ScreenshotLogic {
